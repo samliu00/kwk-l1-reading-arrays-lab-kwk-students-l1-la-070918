@@ -40,7 +40,7 @@ def last_student_by_method
   STUDENT_NAMES.last
 end
 
-pust last_student_by_method
+puts last_student_by_method
 
 
 def first_second_and_third_students
