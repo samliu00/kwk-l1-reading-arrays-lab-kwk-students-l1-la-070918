@@ -28,13 +28,20 @@ end
 puts last_student_by_index
 
 
-def first_studernt_by_method
-  # Write a solution that returns the first student using the built in .first method
+def first_student_by_method
+  STUDENT_NAMES.first
 end
 
+puts first_student_by_method
+
+
+
 def last_student_by_method
-  # Write a solution that returns the first student using the built in .last method
+  STUDENT_NAMES.last
 end
+
+pust last_student_by_method
+
 
 def first_second_and_third_students
   # Write a solution that returns the first, second and third students
